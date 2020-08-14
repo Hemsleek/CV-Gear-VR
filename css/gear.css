@@ -30,20 +30,12 @@ body {
     align-items: center;
     height: 84px;
     padding: 0 3rem;
+    margin-bottom: 30vh;
 }
 
 
-/* .wrapper .items {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    padding: 1rem;
-}
+/* 
 
-.logos {
-    display: flex;
-}
 
 .image-container {
     position: relative;
@@ -55,8 +47,23 @@ body {
 
 */
 
+.items {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 3rem;
+}
+
+.logos {
+    display: flex;
+    position: fixed;
+    height: 70px;
+    bottom: 0;
+    padding: 0 3rem;
+}
+
 img[alt="gear-icon"] {
     position: absolute;
-    top: 30px;
-    left: 25%;
+    top: 70px;
+    left: 30%;
 }
