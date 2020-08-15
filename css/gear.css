@@ -9,11 +9,15 @@ body {
 }
 
 :root {
-    font-size: 12px;
+    font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
     position: relative;
     background-image: url(../media/bg.svg);
     background-size: cover;
@@ -21,7 +25,6 @@ body {
     background-attachment: fixed;
     background-position: center;
     color: #fff;
-    height: 100%;
 }
 
 .nav-bar {
@@ -30,40 +33,73 @@ body {
     align-items: center;
     height: 84px;
     padding: 0 3rem;
-    margin-bottom: 30vh;
-}
-
-
-/* 
-
-
-.image-container {
-    position: relative;
-}
-
-.image-container img[alt="ovals-image"] {
-    height: 100vh;
-}
-
-*/
-
-.items {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    padding: 0 3rem;
-}
-
-.logos {
-    display: flex;
-    position: fixed;
-    height: 70px;
-    bottom: 0;
-    padding: 0 3rem;
+    /* margin-bottom: 30vh; */
 }
 
 img[alt="gear-icon"] {
     position: absolute;
-    top: 70px;
-    left: 30%;
+    transform: scale(1.6);
+    top: 200px;
+    left: 35%;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    /* height: 100%; */
+    padding: 0 3rem;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside span,
+.aside h3 {
+    margin-bottom: 1.5rem;
+}
+
+.items .motto {
+    z-index: 5;
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.motto .heading {
+    font-size: 7.5rem;
+    font-weight: 900;
+}
+
+.motto p {
+    width: 320px;
+    text-align: end;
+    line-height: 25px;
+}
+
+.motto button {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #fff;
+    font-size: .875rem;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+    box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 3rem;
+}
+
+.logos img:last-child {
+    margin-left: 2.5rem;
 }
