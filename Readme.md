@@ -4,6 +4,8 @@ GearVR is an implementation of a Gear VR landing page UI with HTML / CSS.
 
 ## Getting started
 clone or download this repository ,run the `gear.html` 
+## Preview
+![Screenshot](gearvr-screenshot.png)
 ## Prerequisite
 Browser version must be recent for better experience.
 

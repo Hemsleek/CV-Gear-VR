@@ -9,7 +9,7 @@ body {
 }
 
 :root {
-    font-size: 16px;
+    font-size: 14px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -20,7 +20,7 @@ body {
     height: 100vh;
     position: relative;
     background-image: url(../media/bg.svg);
-    background-size: cover;
+    background-size: conver;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -38,9 +38,9 @@ body {
 
 img[alt="gear-icon"] {
     position: absolute;
-    transform: scale(1.6);
-    top: 200px;
-    left: 35%;
+    transform: scale(1.2);
+    top: 100px;
+    left: 30%;
 }
 
 .items {
@@ -74,7 +74,7 @@ img[alt="gear-icon"] {
 }
 
 .motto p {
-    width: 320px;
+    width: 270px;
     text-align: end;
     line-height: 25px;
 }
